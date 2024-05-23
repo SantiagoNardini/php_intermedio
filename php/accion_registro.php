@@ -1,6 +1,6 @@
 <?php
 //conexión con la base y selección de la base de datos
-$conexion = mysqli_connect("localhost","root","","nardini_santiago");
+$conexion = mysqli_connect('localhost', 'id21993853_admin', 'Admin123-', 'id21993853_nardini_santiago');
 //traigo los datos del formulario
 $nombre = $_POST["nombre"];
 $apellido = $_POST["apellido"];

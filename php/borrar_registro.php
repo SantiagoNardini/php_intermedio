@@ -22,7 +22,7 @@
 <h1>Eliminar un registro</h1>
 <?php
 //conexión con la base y selección de la base de datos
-$conexion = mysqli_connect("localhost", "root", "", "nardini_santiago");
+$conexion = mysqli_connect('localhost', 'id21993853_admin', 'Admin123-', 'id21993853_nardini_santiago');
 ?>
 <form method="post" action="accion_borrar.php">
 <?php

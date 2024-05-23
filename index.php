@@ -24,7 +24,7 @@
 
         <?php 
         
-        $conexion = mysqli_connect('localhost', 'root', '', 'nardini_santiago') or exit("No se pudo conectar a la base de datos");
+        $conexion = mysqli_connect('localhost', 'id21993853_admin', 'Admin123-', 'id21993853_nardini_santiago') or exit("No se pudo conectar a la base de datos");
         $result = mysqli_query($conexion, "SELECT * from usuarios");
         
         ?>
